@@ -1,2 +1,2 @@
-# ComponentsLibrary
-Repository for component library project
+# ComponentsLibrary Project
+
