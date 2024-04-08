@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpinLib.a CMakeFiles/pinLib.dir/Pin.cpp.o
+/usr/bin/ranlib libpinLib.a
