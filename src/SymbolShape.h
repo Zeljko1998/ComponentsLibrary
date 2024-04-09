@@ -1,0 +1,1 @@
+enum class SymbolShape { ROUND, TRIANGLE, RECTANGLE };

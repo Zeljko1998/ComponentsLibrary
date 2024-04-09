@@ -1,0 +1,1 @@
+enum class FootprintType { SOIC, SOP, DIP, PDIP, LQPF, QNF };
