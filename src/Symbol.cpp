@@ -35,9 +35,11 @@ void Symbol::addPin(std::string name, std::string description, PinType type) {
       std::make_unique<Pin>(pins.size() + 1, name, description, type));
 }
 void Symbol::removePin(int pinNumber) {
-  auto it = pins.begin();
-  it += pinNumber;
-  pins.erase(it);
+  if (pinNumber <= pins.size()) {
+    auto it = pins.begin();
+    it += pinNumber;
+    pins.erase(it);
+  }
 }
 
 void Symbol::removeAllPins() { pins.clear(); }
